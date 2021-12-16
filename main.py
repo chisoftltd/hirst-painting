@@ -18,4 +18,8 @@ for j in range(10):
         crazy.forward(50)
 
 
+crazy.color('blue')
+style = ('Arial', 30, 'italic')
+crazy.write('Miltos!', font=style, align='center')
+crazy.hideturtle()
 screen.exitonclick()
